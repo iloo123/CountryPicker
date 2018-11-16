@@ -41,7 +41,8 @@ class CountryCell: UITableViewCell {
 
     let flagImageView: UIImageView = {
        let imageView = UIImageView()
-       imageView.translatesAutoresizingMaskIntoConstraints = false
+       imageView.translatesAutoresizingMaskIntoConstraints = true
+       imageView.layer.cornerRadius = 12
        return imageView
     }()
 
